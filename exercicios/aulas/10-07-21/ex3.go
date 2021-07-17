@@ -19,22 +19,22 @@ import "fmt"
 // Printe na tela os valores totais de cada um dos itens e o preço total da compra.
 
 func main() {
-	var precoBanana, Banana precoAbacate, precoSalgadinho float64
-	precoBanana := 1.25
-	precoCerveja := 2.98
-	precoAbacate := 4.59
-	precoSalgadinho := 7.29
+	var precoBanana, precoCerveja, precoAbacate, precoSalgadinho, pesoBanana, qtdCerveja, pesoAbacate, qtdSalgadinho float64
+	precoBanana = 1.25
+	precoCerveja = 2.98
+	precoAbacate = 4.59
+	precoSalgadinho = 7.29
 
-	pesoBanana := 2.170
-	qtdCerveja := 6
-	pesoAbacate := 5.65
-	qtdSalgadinho := 3
+	pesoBanana = 2.170
+	qtdCerveja = 6
+	pesoAbacate = 5.65
+	qtdSalgadinho = 3
 
 	valorCompra := (precoBanana * pesoBanana) + (precoCerveja * qtdCerveja) + (precoAbacate * pesoAbacate) + (precoSalgadinho * qtdSalgadinho)
 
-	fmt.Println("R$",precoAbacate,"> preço Abacate")
-	fmt.Println("R$",precoBanana,"> preço Banana")
-	fmt.Println("R$",precoCerveja,"> preço Cerveja")
-	fmt.Println("R$",precoSalgadinho,"> preço Salgadinho")
-	fmt.Println("R$",valorCompra," valor total da compra")
+	fmt.Println("R$", precoAbacate, "> preço Abacate")
+	fmt.Println("R$", precoBanana, "> preço Banana")
+	fmt.Println("R$", precoCerveja, "> preço Cerveja")
+	fmt.Println("R$", precoSalgadinho, "> preço Salgadinho")
+	fmt.Println("R$", valorCompra, "valor total da compra")
 }
