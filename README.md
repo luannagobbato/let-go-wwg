@@ -5,4 +5,4 @@
 
 Nesse repositório irei postar meus exercícios e acompanhar meu desenvolvimento. 
 
-![gophers-at-work](https://www.seekpng.com/png/detail/412-4126741_gophers-at-work-business-intelligence-with-golang.png = 250px)
+![gophers-at-work](https://www.seekpng.com/png/detail/412-4126741_gophers-at-work-business-intelligence-with-golang.png =250px)
